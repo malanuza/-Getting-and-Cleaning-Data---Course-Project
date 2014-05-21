@@ -2,7 +2,7 @@
 
 ####ID Fields
 
-    subject - The participant ("subject") ID
+    subject - The participant ID
     activity - The label of the activity performed when the corresponding measurements were taken
 
 ####Processed Measurements
