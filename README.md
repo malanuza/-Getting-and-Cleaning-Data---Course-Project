@@ -13,16 +13,16 @@
 
 Source run_analysis.R and issue RunAnalysis(directory, [output]), where directory points to where your data is stored, and output is the file where it will write the results. If no file is specified, it will default to output.txt. For instance:
 
-> source("run_analysis.R")<br/>
+> source("run_analysis.R")<br />
 > RunAnalysis("UCI HAR Dataset", "UCI.output.txt")
 
 When running the script, you will be shown the following events:
 
-> Importing features...<br/>
-> Importing activities...<br/>
-> Importing datasets...<br/>
-> Processing datasets...<br/>
-> Calculating averages...<br/>
+> Importing features...<br />
+> Importing activities...<br />
+> Importing datasets...<br />
+> Processing datasets...<br />
+> Calculating averages...<br />
 > Saving data to output.txt
 
 ####About the procedure:
