@@ -21,7 +21,7 @@ ImportFile <- function(dir, name, names=c("id", "labels"), matches=NA) {
     names(data) <- names
   }
   
-  # Restrict the returned data to the partial matches on the second column, if any specified
+  # Restrict the returned data to the partial matches on the second column if any specified
   if(all(!is.na(matches))) {
     data <- data[grep(matches, features[, 2]), ]
   }
