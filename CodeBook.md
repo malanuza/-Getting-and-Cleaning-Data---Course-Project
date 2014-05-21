@@ -5,7 +5,7 @@
     subject - The participant ("subject") ID
     activity - The label of the activity performed when the corresponding measurements were taken
 
-####Processed Features
+####Processed Measurements
 
     tBodyAcc-mean()-X (column 1)
     tBodyAcc-mean()-Y (column 2)
@@ -82,3 +82,5 @@
     SITTING (value 4)
     STANDING (value 5)
     LAYING (value 6)
+
+NB: All column numbers refer to the original place in the raw data files.
